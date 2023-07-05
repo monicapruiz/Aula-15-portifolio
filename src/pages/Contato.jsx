@@ -1,14 +1,14 @@
 import Header from "../components/Header"
 
-import contato from '../assets/contato.svg'
+import contato from "../assets/contato.svg"
 
-import styles from '../styles/pages/contato.module.css'
+import styles from "../styles/pages/contato.module.css"
 import { useState } from "react"
 
 const Contato = () => {
-  const [nome, setNome] = useState('')
-  const [email, setEmail] = useState('')
-  const [mensagem, setMensagem] = useState('')
+  const [nome, setNome] = useState("")
+  const [email, setEmail] = useState("")
+  const [mensagem, setMensagem] = useState("")
 
   function handleInputNome(e) {
     setNome(e.target.value)

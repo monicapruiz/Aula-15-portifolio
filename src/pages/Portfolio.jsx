@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react"
 import Header from "../components/Header"
-import styles from '../styles/pages/portfolio.module.css'
+import styles from "../styles/pages/portfolio.module.css"
 import Title from "../components/Title"
 import api from "../infrastructure/api"
-import { ArrowSquareOut, GithubLogo, Sparkle } from 'phosphor-react'
+import { ArrowSquareOut, GithubLogo, Sparkle } from "phosphor-react"
 
-import portfolio from '../assets/portfolio.svg'
+import portfolio from "../assets/portfolio.svg"
 
 const Portfolio = () => {
   const [projetosFavoritos, setProjetosFavoritos] = useState([])
