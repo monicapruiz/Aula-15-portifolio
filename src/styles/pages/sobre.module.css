@@ -1,0 +1,18 @@
+.foto{
+
+    display: flex;
+    gap: 1.25rem; 
+    color: slateblue;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.titulo{
+
+    color: blueviolet;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
