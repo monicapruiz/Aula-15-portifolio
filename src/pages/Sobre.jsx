@@ -13,7 +13,7 @@ const Sobre = () => {
       <h1 className={styles.titulo}>SOBRE</h1>
       <div id = "foto" className={styles.foto}>
       <img src={monica} alt="Foto da Mônica" />
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p>Olá, pessoal! Me chamo Mônica, tenho 27 anos e atualmente sou aluna da turma de Front  end do Reprograma. A tecnologia apareceu para mim como uma oportunidade de mudar de carreira profissional e a partir disso resolvi embarcar nesta nova jornada. Por fim, estou curtindo muito este momento! Abraços!</p>
       </div>
     </>
   )
