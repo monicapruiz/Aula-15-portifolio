@@ -3,7 +3,7 @@ import Header from "../components/Header"
 import styles from "../styles/pages/portfolio.module.css"
 import Title from "../components/Title"
 import api from "../infrastructure/api"
-import { ArrowSquareOut, GithubLogo, Sparkle } from "phosphor-react"
+import { ArrowSquareOut, GithubLogo, Sparkle } from "@phosphor-icons/react"
 
 import portfolio from "../assets/portfolio.svg"
 

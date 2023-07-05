@@ -2,7 +2,7 @@ import Header from "../components/Header"
 import Title from "../components/Title"
 import home from "../assets/home.svg"
 import styles from "../styles/pages/home.module.css"
-import { Alien, BracketsCurly, AddressBook } from "phosphor-react"
+import { Alien, BracketsCurly, AddressBook } from "@phosphor-icons/react"
 
 const Home = () => {
   return (
