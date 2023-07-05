@@ -13,7 +13,7 @@ const Sobre = () => {
       <h1 className={styles.titulo}>SOBRE</h1>
       <div id = "foto" className={styles.foto}>
       <img src={monica} alt="Foto da Mônica" />
-      <p>Olá, pessoal! Me chamo Mônica, tenho 27 anos e atualmente sou aluna da turma de Front  end do Reprograma. A tecnologia apareceu para mim como uma oportunidade de mudar carreira profissional. Por fim, estou curtindo muito este momento! Abraços!</p>
+      <p>Olá, pessoal! Me chamo Mônica, tenho 27 anos e atualmente sou aluna da turma de Front  end do Reprograma. A tecnologia apareceu para mim como uma oportunidade de mudar de carreira profissional. Por fim, estou curtindo muito este momento! Abraços!</p>
       </div>
     </>
   )
