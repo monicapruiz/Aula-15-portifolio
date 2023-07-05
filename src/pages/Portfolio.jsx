@@ -8,13 +8,11 @@ import { ArrowSquareOut, GithubLogo, Sparkle } from "@phosphor-icons/react"
 import portfolio from "../assets/portfolio.svg"
 
 const Portfolio = () => {
-  const [projetosFavoritos, setProjetosFavoritos] = useState([])
   const [projetos, setProjetos] = useState([])
 
   function buscaProjetos() {
     api.get("").then(response => {
       setProjetos(response.data)
-      setProjetosFavoritos(projetos.slice(0, 3))
     })
   }
 
@@ -31,7 +29,7 @@ const Portfolio = () => {
       <main className={styles.container}>
         <Title content="Favoritos" />
         <div className={styles.projectsContainer}>
-          {projetosFavoritos.map(projeto => (
+          {projetos.filter(p => p.stargazers_count > 0).map(projeto => (
             <div className={styles.cardContainer}>
               <h1 className={styles.cardTitle}>
                 {projeto.name}
