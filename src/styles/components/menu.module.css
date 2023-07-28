@@ -1,5 +1,5 @@
 .menuContainer {
-  background: #fff;
+  background: #FFC400;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +10,6 @@
 
 .menuLink {
   text-decoration: none;
-  color: #686AAC;
+  color: #D32F2F;
   font-size: 1.5rem;
 }

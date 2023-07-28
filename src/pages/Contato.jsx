@@ -1,7 +1,5 @@
 import Header from "../components/Header"
-
-import contato from "../assets/contato.svg"
-
+import lapis  from '../assets/lapis.png'
 import styles from "../styles/pages/contato.module.css"
 import { useState } from "react"
 
@@ -30,28 +28,28 @@ const Contato = () => {
   return (
     <>
       <Header
-        title="Mande mensagem para Mônica"
-        image={contato}
+        title="Entre em contato com a página para que seu cursinho popular seja divulgado"
+        image={lapis}
       />
       <main>
         <form className={styles.form} onSubmit={() => { }}>
           <input
             className={styles.formInput}
             type="text"
-            placeholder="Digite seu nome"
+            placeholder="Digite  o nome da instituição"
             onChange={handleInputNome}
             value={nome}
           />
           <input
             className={styles.formInput}
             type="email"
-            placeholder="Digite seu email"
+            placeholder="Digite o email da instituição ou pessoal"
             onChange={handleInputEmail}
             value={email}
           />
           <textarea
             className={styles.formInput}
-            placeholder="Digite sua mensagem"
+            placeholder="Digite sua mensagem juntamente com as informações do seu cursinho"
             onChange={handleInputMensagem}
             value={mensagem}
           />

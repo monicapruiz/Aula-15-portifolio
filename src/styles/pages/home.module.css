@@ -1,4 +1,4 @@
-.homeContainer{
+.homeContainer {
 
     display: flex;
     justify-content: center;
@@ -8,20 +8,18 @@
 
 }
 
-.cardContainer{
-
+.cardContainer {
     text-align: center;
-
 }
 
-.cardTitle{
+.cardTitle {
 
-font-size: 2rem;
-color: #474a51;
-padding: 1rem;
+    font-size: 2rem;
+    color: #474a51;
+    padding: 1rem;
 }
 
-.cardDescription{
+.cardDescription {
 
     font-size: 1.3rem;
     color: #474a51;

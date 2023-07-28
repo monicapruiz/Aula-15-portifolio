@@ -1,17 +1,16 @@
 .foto{
-
     display: flex;
     gap: 1.25rem; 
-    color: slateblue;
+    color: #2E7D32;
     justify-content: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
     align-items: center;
 }
 
 .titulo{
 
-    color: blueviolet;
+    color: #2E7D32;
     font-size: 2rem;
     justify-content: center;
     text-align: center;

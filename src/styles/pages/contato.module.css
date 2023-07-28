@@ -10,7 +10,7 @@
 .formInput {
   width: 60%;
   padding: .6rem 2rem;
-  border: 1px solid #ccc;
+  border: 1px solid #BDBDBD;
   border-radius: 4px;
   margin-bottom: 1rem;
   resize: vertical;
@@ -19,7 +19,7 @@
 .formButton {
   width: 60%;
   padding: .6rem 2rem;
-  background-color: #4CAF50;
+  background-color: #2E7D32;
   color: #fff;
   border: none;
   margin-top: 1rem;

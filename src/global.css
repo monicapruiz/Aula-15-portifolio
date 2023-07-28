@@ -6,3 +6,17 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 80%;
+  }
+}
